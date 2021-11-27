@@ -12,6 +12,7 @@ Particle::Particle(vec2 loc) {
     mRadius = 5.0f;
     mAge = 0;
     mLifespan = 2000;
+    mIsDead = false;
 }
 
 void Particle::update() {
